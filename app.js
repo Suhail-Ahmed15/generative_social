@@ -2,7 +2,7 @@
  * Zenith Social App Logic
  * Handles screen navigation, media upload, and post generation.
  */
-
+// code
 const app = {
     state: {
         currentScreen: 'upload',
