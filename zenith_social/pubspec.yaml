@@ -1,0 +1,23 @@
+name: zenith_social
+description: "A mobile application for Zenith Social creator briefing and post generation."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/index.html
+    - assets/app.js
